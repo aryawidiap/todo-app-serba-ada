@@ -3,8 +3,8 @@
 }
 button:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8) inset;
-    opacity: 75%;
+    opacity: 0.75;
 }
 .buttonCompleted-false {
-    opacity: 50%;
+    opacity: 0.5;
 }
