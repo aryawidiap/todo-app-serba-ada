@@ -1,0 +1,10 @@
+.completed-true {
+    text-decoration: line-through;
+}
+button:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8) inset;
+    opacity: 75%;
+}
+.buttonCompleted-false {
+    opacity: 50%;
+}

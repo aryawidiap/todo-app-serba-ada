@@ -1,0 +1,11 @@
+.App h1 {
+  text-align: center;
+  font-weight: 800;
+}
+@media only screen and (min-width: 767px) {
+    .todo-list {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      gap: 5px 5px;
+    }
+}

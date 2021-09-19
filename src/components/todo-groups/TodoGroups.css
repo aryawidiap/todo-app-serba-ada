@@ -1,0 +1,67 @@
+h2 {
+  font-size: 1.2em;
+  margin: 10px 15px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  --text: #000000;
+}
+ul > li {
+  padding: 5px;
+  margin: 10px;
+  border-top: 2px solid var(--text);
+  border-bottom: 2px solid var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.buttons {
+    display: flex;
+    width: 5em;
+    justify-content: space-evenly;
+}
+div.buttons > button {
+    width: 2.2em;
+    height: 2.2em;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 800;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+}
+
+.todo-group {
+  background-color: aquamarine;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 75%;
+  padding: 10px 15px;
+}
+.todo-group:nth-child(1) {
+  background-color: red;
+  color: white;
+}
+.todo-group:nth-child(1) li {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.todo-group:nth-child(2) {
+  background-color: orange;
+}
+.todo-group:nth-child(3) {
+  background-color: yellow;
+}
+.todo-group:last-child {
+  background-color: cyan;
+}
+@media only screen and (min-width: 767px) {
+    .todo-group {
+      width: 40vw;
+      height: 40vh;
+      overflow: auto;
+    }
+}
